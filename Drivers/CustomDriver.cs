@@ -11,11 +11,12 @@ namespace Baigiamasis.Drivers
         {
             return GetDriver(Browsers.Chrome);
         }
+
         public static IWebDriver GetFirefoxDriver()
         {
             return GetDriver(Browsers.Firefox);
-
         }
+
         private static IWebDriver GetDriver(Browsers browserName)
         {
             IWebDriver driver = null;
@@ -30,8 +31,10 @@ namespace Baigiamasis.Drivers
                 case Browsers.Opera:
                     break;
             }
+
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             driver.Manage().Window.Maximize();
+            
             return driver;
         }
     }

@@ -61,11 +61,11 @@
   <ItemGroup>
     <Compile Include="Drivers\Browsers.cs" />
     <Compile Include="Drivers\CustomDriver.cs" />
-    <Compile Include="Page\BasePage.cs" />
-    <Compile Include="Page\PiguLtCartPage.cs" />
-    <Compile Include="Page\PiguLtWishList.cs" />
-    <Compile Include="Page\PiguLtGlovesPage.cs" />
-    <Compile Include="Page\PiguLtLoginPage.cs" />
+    <Compile Include="Page\PiguLtBasePage.cs" />
+    <Compile Include="Page\CartPage.cs" />
+    <Compile Include="Page\WishList.cs" />
+    <Compile Include="Page\GlovesPage.cs" />
+    <Compile Include="Page\LoginPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test\BaseTest.cs" />
     <Compile Include="Test\PiguLtTest.cs" />
