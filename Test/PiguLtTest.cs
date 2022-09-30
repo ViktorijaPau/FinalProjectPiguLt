@@ -6,7 +6,7 @@ namespace Baigiamasis.Test
     public class PiguLtTest : BaseTest
     {
         [Test, Order(1)]
-        [TestCase("v.laurinaviciute@gmail.com", "password1","TestUser", TestName = "Login")]
+        [TestCase("v.laur", "password1","TestUser", TestName = "Login")]
         public void TestLogin(string email, string password, string userName)
         {
             loginPage.PerformLogin(email, password);
